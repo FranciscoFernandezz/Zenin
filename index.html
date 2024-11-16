@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenin Team</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./styles/style-principal.css">
+    <link rel="icon" href="/media/logo pag.jpg">
+</head>
+
+<body>
+    <header>
+
+        <img src="./media/logo pag.jpg" alt="logo-zenin" width="10%" height="10%" id="logo">
+        <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+        <nav class="nav-header visible" id="nav">
+            <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+            <ul>
+                <li><a href="#acerca-de-mi">NOSOTROS</a></li>
+                <li><a href="#portafolio">PROYECTOS</a></li>
+                <li><a href="#contacto">CONTACTANOS</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+
+    <main class="main">
+        <a class="ir-arriba" href="media/logosredes/hacia-arriba.png"></a>
+
+        <div class="portafolio" id="portafolio">
+            <a href="https://nachopineiro.github.io/Cafeteria/">
+                <img src="./media/cafeteri.jpg" alt="Proyecto Cafeteria" width="250px" height="250px">
+                <span class="categoria">Proyecto Cafeteria</span>
+            </a>
+            <a href="https://franciscofernandezz.github.io/Yummy/">
+                <img src="./media/burger.jpg" alt="Proyecto Hamburguesas" width="250px" height="250px">
+                <span class="categoria">Proyecto Hamburguesas</span>
+            </a>
+            <a href="https://franciscofernandezz.github.io/PaginaNehuen/">
+                <img src="./media/los-cuentos-nacho.png" alt="Los Cuentos del Nachito" width="250px" height="250px">
+                <span class="categoria">Los Cuentos del Nachito</span>
+            </a>
+        </div>
+
+        </section>
+
+
+        <section class="contacto" id="contacto">
+
+            <div class="contact-form">
+                <h2>CONTACTAME</h2>
+                <p>Hace tu consulta</p>
+                <form action="https://formsubmit.co/franciscofernandez@epet12smandes.edu.ar" method="POST">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre y Apellido" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" placeholder="Numero de telefono" name="phone" required>
+                    </div>
+
+
+                    <textarea placeholder="Tu consulta" name="message" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+
+        </section>
+        <section class="acerca-de-mi" id="acerca-de-mi">
+            <div class="text-container">
+                <p>Somos un grupo de estudiantes de programacion que estamos empezando a desarrollar paginas web.</p>
+            </div>
+            <img class="background-image" src="./media/codigo-fondo.jpg" alt="codigo-ejemplo" height="80%">
+        </section>
+
+
+
+
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section contacto-info">
+                <img src="./media/logo pag.jpg" alt="Logo" class="footer-logo">
+
+            </div>
+
+            <div class="footer-section enlaces">
+                <h4>ENLACES</h4>
+                <ul>
+                    <li><a href="#acerca-de-mi">NOSOTROS</a></li>
+                    <li><a href="#portafolio">PROYECTOS</a></li>
+                    <li><a href="#contacto">CONTACTANOS</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section redes-sociales">
+                <h4>REDES SOCIALES</h4>
+                <ul>
+                    <li><a href="#" target="_blank"><img src="./media/icons8-facebook-50.png" alt="Facebook"></a></li>
+                    <li><a href="#" target="_blank"><img src="./media/icons8-instagram-50.png" alt="Instagram"></a></li>
+                    <li><a href="#" target="_blank"><img src="./media/icons8-mail-50.png" alt="Mail"></a></li>
+                </ul>
+            </div>
+
+        </div>
+        <p class="footer-copy">&copy; Todos los derechos reservados - ...</p>
+    </footer>
+</body>
+<script type="module" src="./scripts/script.js"></script>
+
+</html>
